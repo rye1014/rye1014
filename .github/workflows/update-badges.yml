@@ -2,17 +2,14 @@ name: Update badges
 
 on:
   schedule:
-    # Runs at 0am UTC every day
-    - cron: "0 0 * * *"
+    # Runs at 2am UTC
+    - cron: "0 2 * * *"
 jobs:
   update-readme:
     name: Update Readme with badges
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Badges - Readme
         uses: pemtajo/badge-readme@main
-        with: 
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:       
           CREDLY_USER: Ting-Yu Hsu
