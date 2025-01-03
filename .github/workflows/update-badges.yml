@@ -12,6 +12,6 @@ jobs:
       contents: write
     steps:
       - name: Badges - Readme
-        uses: rye10140210/rye1014@main
+        uses: rye1014/rye1014@main
         with: 
           CREDLY_USER: Ting-Yu Hsu
