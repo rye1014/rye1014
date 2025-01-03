@@ -13,4 +13,4 @@ jobs:
       - name: Badges - Readme
         uses: pemtajo/badge-readme@main
         with:
-          CREDLY_USER: "ting-yu-hsu.451e962e"
+          CREDLY_USER: "Ting-Yu Hsu"
