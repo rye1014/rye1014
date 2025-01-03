@@ -15,5 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+## Badges
+
 <!--START_SECTION:badges-->
 <!--END_SECTION:badges-->
