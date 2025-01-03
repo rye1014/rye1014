@@ -14,4 +14,5 @@ jobs:
       - name: Badges - Readme
         uses: rye1014/rye1014@main
         with: 
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           CREDLY_USER: Ting-Yu Hsu
