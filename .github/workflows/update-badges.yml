@@ -1,9 +1,10 @@
 name: Update badges
 
 on:
+  workflow_dispatch: # run manually
   schedule:
-    # Runs at 2am UTC
-    - cron: "0 2 * * *"
+    # Runs at 1am UTC on Sunday
+    - cron: "0 1 * * 0"
 jobs:
   update-readme:
     name: Update Readme with badges
@@ -11,5 +12,6 @@ jobs:
     steps:
       - name: Badges - Readme
         uses: pemtajo/badge-readme@main
-        with:       
-          CREDLY_USER: Ting-Yu Hsu
+        with:
+          CREDLY_USER: "Ting-Yu Hsu"
+          CREDLY_SORT: POPULAR
